@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакт</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> За мене</a></li>
+                <li><a href="hobi.html"><i class="fas fa-music"></i> Хоби</a></li>
+                <li><a href="vestini.html"><i class="fas fa-cocktail"></i> Вештини</a></li>
+                <li><a href="kontakt.html"><i class="fas fa-envelope"></i> Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .contact-form {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .input-field {
+            margin-bottom: 20px;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .submit-btn {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Контактирај ме</h1>
+        <p>Мојата е-пошта е <b>nadjamladenoska1990@gmail.com</b></p>
+        <div class="contact-form">
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="email" class="input-field" name="email" placeholder="Your Email" required><br>
+                <textarea class="input-field" name="message" rows="5" placeholder="Your Message" required></textarea><br>
+                <input type="submit" class="submit-btn" value="Send">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 style="text-align: center;"> Социјални мрежи</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                
+    </footer>
+</body>
+</html>
